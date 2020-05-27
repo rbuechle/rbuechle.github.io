@@ -1,6 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: rgb(10, 25, 48);
   font-family: 'Oswald', Verdana, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: inherit;
+  min-height: inherit;
+
 }
 
 a {
@@ -22,10 +39,15 @@ a:hover {
   margin: auto;
   margin-top: 50px;
   display: block;
-  width: 100px;
+  width: 120px;
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
+}
+
+a.button {
+  border-color: rgb(214, 131, 141);
+  color: rgb(214, 131, 141);
 }
 
 a.button:hover {
@@ -36,11 +58,21 @@ a.button:hover {
 }
 
 nav {
-  text-align: right;
-  padding: 30px;
+  padding: 20px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(129, 216, 208);
+  top: 0px;
+  color: rgb(129, 216, 208);
 }
 
+nav a {
+  color: rgb(10, 25, 48);
+  padding: 5px;
+  text-decoration: none;
+}
 
 .container {
   text-align: center;
@@ -83,6 +115,7 @@ h3 {
 
 .me {
   width: 300px;
+  border-radius: 10px;
 }
 
 .tint:before {
@@ -95,6 +128,7 @@ h3 {
   right: 0;
   background: rgba(214,131,141,0.5);
   transition: background .3s linear;
+  border-radius: 10px;
 }
 
 .tint:hover:before {
@@ -104,33 +138,117 @@ h3 {
 
 .jack {
   width: 500px;
+  height: 375px;
+  background: url("Jack.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.desc2 {
+  min-height: 375px;
+  opacity: 0.01;
+  background-color: rgb(10, 25, 48);
+  padding: 30px;
+  transition: opacity 1s;
+}
+
+.jack:hover .desc2 {
+  opacity: 1;
 }
 
 .barn {
   width: 500px;
   height: 375px;
+  background: url("barn.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.barn:hover .desc2 {
+  opacity: 1;
+}
+
+.desc {
+  min-height: 300px;
+  opacity: 0.01;
+  background-color: rgb(10, 25, 48);
+  padding: 30px;
+  transition: opacity 1s;
 }
 
 .bio {
-  width: 480px;
+  height: 300px;
+  width: 400px;
+  background: url("bio.jpg");
+  background-size: cover;
+  border-radius: 10px;
 }
 
+.bio:hover .desc {
+  opacity: 1;
+}
+
+
 .wireframe {
-  width: 480px;
+  height: 300px;
+  width: 400px;
+  background: url("bioWireframe.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.wireframe:hover .desc {
+  opacity: 1;
 }
 
 .project_83 {
-  width: 500px;
+  height: 300px;
+  width: 400px;
+  background: url("JS_8.3_project.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.project_83:hover .desc {
+  opacity: 1;
 }
 
 .pattProto {
-  width: 500px;
+  height: 300px;
+  width: 400px;
+  background: url("w2_a2.2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.pattProto:hover .desc {
+  opacity: 1;
 }
 
 .portfolio {
-  width: 500px;
+  height: 300px;
+  width: 400px;
+  background: url("portfolio_prototype.png");
+  background-size: cover;
+  border-radius: 10px;
 }
 
-.biop {
-  width: 480px;
+.portfolio:hover .desc {
+  opacity: 1;
+}
+
+.images td {
+  padding: 0px;
+}
+
+.images {
+  margin: auto;
+}
+
+footer {
+  padding: 10px;
+  background-color:rgb(129, 216, 208);
+  color: rgb(10, 25, 48);
+  width: 100%;
+  margin: 0px
 }
