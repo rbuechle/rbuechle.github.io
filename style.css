@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: rgb(10, 25, 48);
+  background-color: rgb(20, 50, 96);
   font-family: 'Oswald', Verdana, Arial, sans-serif;
   padding: 0px;
   margin: 0px;
@@ -36,6 +36,29 @@ a:hover {
 }
 
 .button {
+  margin: 0;
+  margin-left: auto;
+  display: block;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a.button {
+  border-color: rgb(20, 50, 96);
+  color: rgb(20, 50, 96);
+}
+
+a.button:hover {
+  background-color: rgb(20, 50, 96);
+  color: lightgray;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button2 {
   margin: auto;
   margin-top: 50px;
   display: block;
@@ -45,12 +68,12 @@ a:hover {
   border-radius: 5px;
 }
 
-a.button {
+a.button2 {
   border-color: rgb(214, 131, 141);
   color: rgb(214, 131, 141);
 }
 
-a.button:hover {
+a.button2:hover {
   background-color: rgb(214, 131, 141);
   color: lightgray;
   text-decoration: none;
@@ -69,7 +92,7 @@ nav {
 }
 
 nav a {
-  color: rgb(10, 25, 48);
+  color: rgb(20, 50, 96);
   padding: 5px;
   text-decoration: none;
 }
@@ -147,7 +170,7 @@ h3 {
 .desc2 {
   min-height: 375px;
   opacity: 0.01;
-  background-color: rgb(10, 25, 48);
+  background-color: rgb(20, 50, 96);
   padding: 30px;
   transition: opacity 1s;
 }
@@ -171,7 +194,7 @@ h3 {
 .desc {
   min-height: 300px;
   opacity: 0.01;
-  background-color: rgb(10, 25, 48);
+  background-color: rgb(20, 50, 96);
   padding: 30px;
   transition: opacity 1s;
 }
@@ -248,7 +271,7 @@ h3 {
 footer {
   padding: 50px;
   background-color:rgb(129, 216, 208);
-  color: rgb(10, 25, 48);
+  color: rgb(20, 50, 96);
   width: 100%;
   margin: 0px;
   padding-left: 100px;
@@ -261,13 +284,35 @@ footer {
 
 .social {
   width: 48px;
-
 }
 
 .socials {
   text-align: right;
 }
 
+html.darkMode {
+  background-color: rgb(10, 25, 48);
+}
+
 nav.darkMode, footer.darkMode{
   background-color: rgb(65, 108, 104);
+  color: lightgray;
+}
+
+nav.darkMode a {
+color: lightgray;
+}
+
+a.button.darkMode {
+  border-color: rgb(10, 25, 48);
+  color: rgb(10, 25, 48);
+}
+
+a.button.darkMode:hover {
+  background-color: rgb(10, 25, 48);
+  color: lightgray;
+}
+
+.desc.darkMode, .desc2.darkMode {
+  background-color: rgb(10, 25, 48);
 }
