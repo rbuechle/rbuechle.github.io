@@ -267,3 +267,7 @@ footer {
 .socials {
   text-align: right;
 }
+
+nav.darkMode, footer.darkMode{
+  background-color: rgb(65, 108, 104);
+}
