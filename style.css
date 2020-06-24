@@ -260,6 +260,18 @@ h3 {
   opacity: 1;
 }
 
+.trivia {
+  height: 300px;
+  width: 400px;
+  background: url("trivia.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.trivia:hover .desc {
+  opacity: 1;
+}
+
 .images td {
   padding: 0px;
 }
