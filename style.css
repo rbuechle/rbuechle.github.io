@@ -231,12 +231,11 @@ h3 {
 }
 
 .ord {
-  height: 300px;
-  width: 400px;
+  height: 286px;
+  width: 298.5px;
   background: url("./nosql-data-diagrams/ORD_buechle.jpg");
   background-size: cover;
   border-radius: 10px;
-
 }
 
 .ord:hover .desc {
@@ -244,8 +243,8 @@ h3 {
 }
 
 .nosql {
-  height: 300px;
-  width: 400px;
+  height: 319px;
+  width: 315px;
   background: url("./nosql-data-diagrams/NoSQL_buechle.jpg");
   background-size: cover;
   border-radius: 10px;
@@ -310,6 +309,15 @@ h3 {
 
 .images {
   margin: auto;
+}
+
+.images2 {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.images2 td {
+  padding: 0px;
 }
 
 footer {
