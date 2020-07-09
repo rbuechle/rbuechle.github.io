@@ -88,13 +88,19 @@ nav {
   z-index: 1;
   background-color: rgb(129, 216, 208);
   top: 0px;
-  color: rgb(129, 216, 208);
+  color: rgb(20, 50, 96);
 }
 
 nav a {
   color: rgb(20, 50, 96);
   padding: 5px;
   text-decoration: none;
+}
+
+main {
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
 }
 
 .container {
