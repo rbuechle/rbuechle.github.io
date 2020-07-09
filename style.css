@@ -230,6 +230,32 @@ h3 {
   opacity: 1;
 }
 
+.ord {
+  height: 300px;
+  width: 400px;
+  background: url("./nosql-data-diagrams/ORD_buechle.jpg");
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.ord:hover .desc {
+  opacity: 1;
+}
+
+.nosql {
+  height: 300px;
+  width: 400px;
+  background: url("./nosql-data-diagrams/NoSQL_buechle.jpg");
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.nosql:hover .desc {
+  opacity: 1;
+}
+
 .project_83 {
   height: 300px;
   width: 400px;
