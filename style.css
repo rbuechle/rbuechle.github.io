@@ -231,29 +231,55 @@ h3 {
 }
 
 .ord {
-  height: 286px;
-  width: 298.5px;
-  background: url("./nosql-data-diagrams/ORD_Buechle.JPG");
-  background-size: cover;
+  height: 572px;
+  width: 597px;
   border-radius: 10px;
 }
 
-.ord:hover .desc {
-  opacity: 1;
-}
 
 .nosql {
   height: 319px;
   width: 315px;
-  background: url("./nosql-data-diagrams/NoSQL_buechle.jpg");
-  background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+.nodeShopper {
+  height: 179px;
+  width: 912px;
   border-radius: 10px;
 
 }
 
-.nosql:hover .desc {
-  opacity: 1;
+
+.nodeShopperNoSQL {
+  height: 850px;
+  width: 308px;
+  border-radius: 10px;
+
 }
+
+
+
+.nodeTech {
+  height: 185px;
+  width: 916px;
+  border-radius: 10px;
+
+}
+
+
+
+.nodeTechNoSQL {
+  height: 396px;
+  width: 270px;
+  border-radius: 10px;
+
+}
+
+
+
 
 .project_83 {
   height: 300px;
@@ -317,7 +343,7 @@ h3 {
 }
 
 .images2 td {
-  padding: 0px;
+  padding: 20px;
 }
 
 footer {
