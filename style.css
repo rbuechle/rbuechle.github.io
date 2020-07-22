@@ -249,7 +249,6 @@ h3 {
   height: 179px;
   width: 912px;
   border-radius: 10px;
-
 }
 
 
@@ -257,7 +256,6 @@ h3 {
   height: 850px;
   width: 308px;
   border-radius: 10px;
-
 }
 
 
@@ -266,7 +264,6 @@ h3 {
   height: 185px;
   width: 916px;
   border-radius: 10px;
-
 }
 
 
@@ -275,11 +272,37 @@ h3 {
   height: 396px;
   width: 270px;
   border-radius: 10px;
-
 }
 
+.teach {
+  height: 280px;
+  width: 920px;
+  border-radius: 10px;
+}
 
+.nodeSecurity {
+  height: 914px;
+  width: 334px;
+  border-radius: 10px;
+}
 
+.booka {
+  height: 379px;
+  width: 618px;
+  border-radius: 10px;
+}
+
+.bookb {
+  height: 423px;
+  width: 831px;
+  border-radius: 10px;
+}
+
+.book {
+  height: 487px;
+  width: 496px;
+  border-radius: 10px;
+}
 
 .project_83 {
   height: 300px;
