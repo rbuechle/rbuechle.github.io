@@ -343,7 +343,7 @@ h3 {
 .trivia {
   height: 300px;
   width: 400px;
-  background: url("trivia.JPG");
+  background: url("trivia.jpg");
   background-size: cover;
   border-radius: 10px;
 }
