@@ -388,6 +388,18 @@ h3 {
   opacity: 1;
 }
 
+.books {
+  height: 300px;
+  width: 400px;
+  background: url("student.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.books:hover .desc {
+  opacity: 1;
+}
+
 .images td {
   padding: 0px;
 }
