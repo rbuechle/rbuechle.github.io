@@ -391,7 +391,7 @@ h3 {
 .books {
   height: 300px;
   width: 400px;
-  background: url("student.jpg");
+  background: url("books.jpg");
   background-size: cover;
   border-radius: 10px;
 }
