@@ -400,6 +400,18 @@ h3 {
   opacity: 1;
 }
 
+.bob {
+  height: 300px;
+  width: 400px;
+  background: url("bobs.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.books:hover .desc {
+  opacity: 1;
+}
+
 .images td {
   padding: 0px;
 }
