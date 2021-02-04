@@ -415,7 +415,7 @@ h3 {
 .bob2 {
   height: 300px;
   width: 400px;
-  background: url("bobs2.jpg");
+  background: url("bob2.jpg");
   background-size: cover;
   border-radius: 10px;
 }
