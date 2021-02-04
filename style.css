@@ -412,6 +412,18 @@ h3 {
   opacity: 1;
 }
 
+.bob2 {
+  height: 300px;
+  width: 400px;
+  background: url("bobs2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.bob2:hover .desc {
+  opacity: 1;
+}
+
 .images td {
   padding: 0px;
 }
